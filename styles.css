@@ -15,12 +15,12 @@
     --black: #2b2623;
     --grey: #bababa;
     --off-white: #faf8f7;
-    just-white: #fff;
+    --just-white: #fff;
 }
 *{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0; 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
 }
 html {
     font-size: 62.5%;
@@ -35,4 +35,19 @@ header {
     min-width: 320px;
     height: 334px;
     text-align: center;
+}
+header img {
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+}
+.header--title-container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
 }
