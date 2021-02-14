@@ -133,6 +133,9 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
+td {
+    border: #1c1c20 solid;
+}
 
 
 
