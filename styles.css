@@ -35,7 +35,7 @@ header {
     min-width: 320px;
     height: 334px;
     text-align: center;
-    background: linear-gradient(207.8deg, #1c1c20 16.69%, #f7931a 100%); /*(#0e0f35 16.69%, #6b035d 100%)*/
+    background: linear-gradient(207.8deg, #0e0f35 16.69%, #6b035d 100%); /*(#0e0f35 16.69%, #6b035d 100%)*/
 }
 header img {
     width: 150px;
