@@ -377,6 +377,15 @@ main {
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
+.tables-container--slider {
+    align-items: center;
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 .plans-container--card {
     position: relative;
     scroll-snap-align: center;
