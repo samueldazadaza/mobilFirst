@@ -25,6 +25,7 @@
 html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+    scroll-behavior : smooth;
 }
 header {
     position: relative;
@@ -140,6 +141,7 @@ main {
     height: 360px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
+    scroll-snap-align: center;
 }
 .main-currency-table .currency-table--title {
     margin-bottom: 15px;
@@ -372,20 +374,18 @@ main {
 }
 .plans-container--slider {
     display: flex;
-    height: 316px;
+    height: 326px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
-.tables-container--slider {
-    align-items: center;
+.main-tables-container {
     display: flex;
-    height: 316px;
+    height: 380px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
-
 .plans-container--card {
     position: relative;
     scroll-snap-align: center;
